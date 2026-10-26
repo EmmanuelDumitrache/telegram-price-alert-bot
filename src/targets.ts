@@ -1,0 +1,1 @@
+export const targets: Record<string, number> = {};

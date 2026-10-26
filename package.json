@@ -1,0 +1,25 @@
+{
+  "name": "telegram-price-alert-bot",
+  "version": "1.0.0",
+  "description": "TG Bot that scans periodically the top 5 crypto prices, returns live prices via an API call, checks target, if target reached sends Telegram alert to buy.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node-telegram-bot-api": "^0.64.15",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.6",
+    "node-telegram-bot-api": "^0.67.0"
+  }
+}
